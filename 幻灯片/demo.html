@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="flexslider.css">
+	<script src="../lib/jquery.js"></script>
+	<script src="jquery.flexslider.js"></script>
+
+	<style>
+		img {
+			width: 980px;
+			margin: 0 auto;
+			height: 240px;
+		}
+	</style>
+</head>
+<body>
+<div class="flexslider"> 
+      <ul class="slides"> 
+        <li><img src="banner.jpg" /></li> 
+        <li><img src="2.jpg" /></li>
+      </ul> 
+</div>
+<!-- <div class="flexslider" data-cycle-fx="scrollHorz" data-cycle-timeout="5000" 
+	data-cycle-pager="#advpager">
+    data-cycle-pager-template="<a href=###><b>{{slideNum}}</b></a>
+	<img src="banner.jpg" />
+	<img src="banner.jpg" />
+	<img src="banner.jpg" />
+	<div id="advpager">
+		 <a href="###"><b>1</b></a>
+		 <a href="###"><b>2</b></a>
+		 <a href="###"><b>3</b></a>
+		 <a href="###"><b>4</b></a>
+	</div>
+</div> -->
+	<script>
+		$('.flexslider').flexslider({
+			animation: "fade",
+			//direction: "horizontal", 
+			slideshow: true,
+    		slideshowSpeed: 5000,
+    		pauseOnAction: false,
+    		directionNav: false
+		});
+	</script>
+</body>
+</html>

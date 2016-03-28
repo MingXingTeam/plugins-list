@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.active {
+		background: red;
+		color: blue;
+		font-size: 18px;
+	}
+	</style>
+</head>
+<body>
+	<script src="activable.js"></script>
+	<ul data-activable data-trigger=">:first-child">
+	  <li class="active"><a href="#t1">Tab1</a></li>
+	  <li class=""><a href="#t2">Tab2</a></li>
+	  <li class=""><a href="#t3">Tab3</a></li>
+	</ul>
+	<div>
+	  <div id="t1" class="active">Raw denim you probably haven't heard of.</div>
+	  <div id="t2">Mustache cliche tempor, williamsburg carles.</div>
+	  <div id="t3">Cosby sweater eu banh mi, qui irure terry.</div>
+	</div>
+</body>
+</html>

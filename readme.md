@@ -1,34 +1,11 @@
-        ##我经常用的插件列表：
-        
-        + bootstrap-notify.js
-        + jquery_ui_custom.min.js
-        + bootstrap.min.js
-        + select2.min.js
-        + select2.full.min.js
-        + datepicker.min.js
-        + daterangepicker.min.js
-        + datetimepicker.min.js
-        + swfobject.js'
-        + highcharts.min.js
-        + underscore.js
-        + backbone.js,
-        + moment.min.js
-        + slimscroll.min.js
-        + jquery.sparkline.min.js
-        + jquery.event.drag.min.js
-        + jquery.grid.rowsizing.min.js
-        + jquery.validate.min.j
-        + form.wizard.min.js
-        + rangeSlider.min.js
-        + jquery.tagsinput.min.js
-        + bootstrap-tagsinput.min.js
-        + jquery.chosen.min.js
-        + jquery.nestable.min.js
-        + jquery.form.min.js
-        + jscolor.js
-        + typeahead.min.js
-        + plupload.full.min.js
-        + echarts-plain-map.js
-        + jquery.dataTables.min.js
-        + kindeditor-all-min.js
-        + zeroclipboard.min.js
+列举前端开发当中常用的优秀组件供工作和学习之用。
+----------------
+
+
+请忽略以下：
+
++ jquery_ui_custom.min.js
++ swfobject.js
++ underscore.js
++ backbone.js,
++ jquery.grid.rowsizing.min.js
