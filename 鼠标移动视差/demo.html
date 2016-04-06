@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.plaxify{
+		    position: absolute;
+		}
+		 
+	</style>
+	<script src="../lib/jquery.js"></script>
+	<script src="./plaxify.js"></script>
+</head>
+<body>
+    <img class="bg plaxify" src="1.png" alt="轩枫阁404" width="980"  data-xrange="10" data-yrange="2"  height="600" />
+    <img class="note plaxify" alt="轩枫阁404" data-xrange="25" data-yrange="25" height="210" width="230" src="2.png"  title="傻了吧  - -  当一回侦探自救吧~" />
+    
+	<script>
+		var layers = $('.plaxify');
+		$.each(layers, function(index, layer){
+			$(layer).plaxify({
+			  xRange: $(layer).data('xrange') || 0,
+			  yRange: $(layer).data('yrange') || 0,
+			  invert: $(layer).data('invert') || false
+			});
+		});
+
+		$.plax.enable();
+
+		
+
+	</script>
+</body>
+</html>
